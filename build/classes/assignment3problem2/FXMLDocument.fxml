@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment3problem2.FXMLDocumentController">
+    <children>
+      <TextField fx:id="input1" alignment="CENTER_RIGHT" layoutX="127.0" layoutY="45.0" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="358.0" />
+      <TextField fx:id="input2" alignment="CENTER_RIGHT" layoutX="127.0" layoutY="98.0" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="358.0" />
+      <TextField fx:id="res" alignment="CENTER_RIGHT" editable="false" layoutX="127.0" layoutY="149.0" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="358.0" />
+      <Label fx:id="number1" layoutX="37.0" layoutY="51.0" text="Number1:" />
+      <Label fx:id="number2" layoutX="37.0" layoutY="104.0" text="Number2:" />
+      <Label fx:id="result" layoutX="37.0" layoutY="155.0" text="Result:" />
+      <Label fx:id="label" layoutX="516.0" layoutY="65.0" prefHeight="57.0" prefWidth="53.0" />
+      <Button fx:id="plus" alignment="CENTER" contentDisplay="CENTER" layoutX="25.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleButtonAction" text="    +    " />
+      <Button fx:id="minus" layoutX="117.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleButtonAction" text="    -    " />
+      <Button fx:id="mul" layoutX="212.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleButtonAction" text="    *    " />
+      <Button fx:id="greater_than" layoutX="306.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleButtonAction" text="    &gt;    " />
+      <Button fx:id="less_than" layoutX="398.0" layoutY="232.0" mnemonicParsing="false" onAction="#handleButtonAction" text="    &lt;    " />
+      <Button fx:id="equals" layoutX="491.0" layoutY="231.0" mnemonicParsing="false" onAction="#handleButtonAction" text="   ==   " />
+      <Button fx:id="compute" layoutX="127.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="115.0" text="Compute" />
+      <Button fx:id="quit" layoutX="370.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="39.0" prefWidth="115.0" text="Quit" />
+    </children>
+</AnchorPane>
